@@ -12,4 +12,9 @@ class Car {
     var license: String = ""
     var driver: String = ""
     var passengers: Int = 0
+    
+    func printData() {
+        print("License: \(license)")
+        print("Driver: \(driver)")
+    }
 }
