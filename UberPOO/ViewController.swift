@@ -13,15 +13,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let car = Car()
-        car.license = "AMQ123"
-        car.driver = "Uriel Olascoaga"
+        let car = Car(
+            license: "AMQ123",
+            driver: Account(
+                name: "Uriel Olascoaga",
+                document: "UO123"
+            )
+        )
         car.passengers = 5
         car.printData()
         
-        let car2 = Car()
-        car2.license = "QWE567"
-        car2.driver = "Nadia Mejía"
+        let car2 = Car(
+            license: "QWE567",
+            driver: Account(
+                name: "Nadia Mejía",
+                document: "NM123"
+            )
+        )
         car2.passengers = 3
         car2.printData()
     }

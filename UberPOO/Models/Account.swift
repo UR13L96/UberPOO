@@ -13,4 +13,9 @@ class Account {
     var document: String = ""
     var email: String = ""
     var password: String = ""
+    
+    init(name: String, document: String) {
+        self.name = name
+        self.document = document
+    }
 }

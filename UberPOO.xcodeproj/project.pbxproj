@@ -17,6 +17,10 @@
 		A49A1A63298CBB5500A2BA28 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A1A62298CBB5500A2BA28 /* Car.swift */; };
 		A49A1A65298CBC0A00A2BA28 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A1A64298CBC0A00A2BA28 /* Payment.swift */; };
 		A49A1A67298CBC4500A2BA28 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A1A66298CBC4500A2BA28 /* Route.swift */; };
+		A49A2C0D29ADC57B00619FAE /* UberX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A2C0C29ADC57B00619FAE /* UberX.swift */; };
+		A49A2C0F29ADC6AF00619FAE /* UberPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A2C0E29ADC6AF00619FAE /* UberPool.swift */; };
+		A49A2C1129ADC6C400619FAE /* UberBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A2C1029ADC6C400619FAE /* UberBlack.swift */; };
+		A49A2C1329ADC86500619FAE /* UberVan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A2C1229ADC86500619FAE /* UberVan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		A49A1A62298CBB5500A2BA28 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		A49A1A64298CBC0A00A2BA28 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 		A49A1A66298CBC4500A2BA28 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		A49A2C0C29ADC57B00619FAE /* UberX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberX.swift; sourceTree = "<group>"; };
+		A49A2C0E29ADC6AF00619FAE /* UberPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberPool.swift; sourceTree = "<group>"; };
+		A49A2C1029ADC6C400619FAE /* UberBlack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberBlack.swift; sourceTree = "<group>"; };
+		A49A2C1229ADC86500619FAE /* UberVan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberVan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 				A49A1A62298CBB5500A2BA28 /* Car.swift */,
 				A49A1A64298CBC0A00A2BA28 /* Payment.swift */,
 				A49A1A66298CBC4500A2BA28 /* Route.swift */,
+				A49A2C0C29ADC57B00619FAE /* UberX.swift */,
+				A49A2C0E29ADC6AF00619FAE /* UberPool.swift */,
+				A49A2C1029ADC6C400619FAE /* UberBlack.swift */,
+				A49A2C1229ADC86500619FAE /* UberVan.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,10 +187,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49A1A4E298CB81E00A2BA28 /* ViewController.swift in Sources */,
+				A49A2C1329ADC86500619FAE /* UberVan.swift in Sources */,
 				A49A1A61298CB9C300A2BA28 /* Account.swift in Sources */,
 				A49A1A63298CBB5500A2BA28 /* Car.swift in Sources */,
 				A49A1A4A298CB81E00A2BA28 /* AppDelegate.swift in Sources */,
+				A49A2C0D29ADC57B00619FAE /* UberX.swift in Sources */,
+				A49A2C1129ADC6C400619FAE /* UberBlack.swift in Sources */,
 				A49A1A65298CBC0A00A2BA28 /* Payment.swift in Sources */,
+				A49A2C0F29ADC6AF00619FAE /* UberPool.swift in Sources */,
 				A49A1A67298CBC4500A2BA28 /* Route.swift in Sources */,
 				A49A1A4C298CB81E00A2BA28 /* SceneDelegate.swift in Sources */,
 			);
