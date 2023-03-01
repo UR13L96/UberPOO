@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A45DDB4429AF123B00E0D5FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DDB4329AF123B00E0D5FB /* User.swift */; };
+		A45DDB4629AF128D00E0D5FB /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DDB4529AF128D00E0D5FB /* Driver.swift */; };
 		A49A1A4A298CB81E00A2BA28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A1A49298CB81E00A2BA28 /* AppDelegate.swift */; };
 		A49A1A4C298CB81E00A2BA28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A1A4B298CB81E00A2BA28 /* SceneDelegate.swift */; };
 		A49A1A4E298CB81E00A2BA28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A1A4D298CB81E00A2BA28 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A45DDB4329AF123B00E0D5FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A45DDB4529AF128D00E0D5FB /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 		A49A1A46298CB81E00A2BA28 /* UberPOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberPOO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49A1A49298CB81E00A2BA28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A49A1A4B298CB81E00A2BA28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				A49A2C0E29ADC6AF00619FAE /* UberPool.swift */,
 				A49A2C1029ADC6C400619FAE /* UberBlack.swift */,
 				A49A2C1229ADC86500619FAE /* UberVan.swift */,
+				A45DDB4329AF123B00E0D5FB /* User.swift */,
+				A45DDB4529AF128D00E0D5FB /* Driver.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,11 +195,13 @@
 				A49A1A4E298CB81E00A2BA28 /* ViewController.swift in Sources */,
 				A49A2C1329ADC86500619FAE /* UberVan.swift in Sources */,
 				A49A1A61298CB9C300A2BA28 /* Account.swift in Sources */,
+				A45DDB4629AF128D00E0D5FB /* Driver.swift in Sources */,
 				A49A1A63298CBB5500A2BA28 /* Car.swift in Sources */,
 				A49A1A4A298CB81E00A2BA28 /* AppDelegate.swift in Sources */,
 				A49A2C0D29ADC57B00619FAE /* UberX.swift in Sources */,
 				A49A2C1129ADC6C400619FAE /* UberBlack.swift in Sources */,
 				A49A1A65298CBC0A00A2BA28 /* Payment.swift in Sources */,
+				A45DDB4429AF123B00E0D5FB /* User.swift in Sources */,
 				A49A2C0F29ADC6AF00619FAE /* UberPool.swift in Sources */,
 				A49A1A67298CBC4500A2BA28 /* Route.swift in Sources */,
 				A49A1A4C298CB81E00A2BA28 /* SceneDelegate.swift in Sources */,

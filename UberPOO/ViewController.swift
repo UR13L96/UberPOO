@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         
         let car = Car(
             license: "AMQ123",
-            driver: Account(
+            driver: Driver(
                 name: "Uriel Olascoaga",
                 document: "UO123"
             )
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         let car2 = Car(
             license: "QWE567",
-            driver: Account(
+            driver: Driver(
                 name: "Nadia Mejía",
                 document: "NM123"
             )
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         let uberX = UberX(
             license: "CVB123",
-            driver: Account(name: "Andres Herrera", document: "AND456"),
+            driver: Driver(name: "Andres Herrera", document: "AND456"),
             brand: "Chevrolet",
             model: "Spark"
         )
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         
         let uberPool = UberPool(
             license: "TYU567",
-            driver: Account(name: "Andrea Ferran", document: "ANDA765"),
+            driver: Driver(name: "Andrea Ferran", document: "ANDA765"),
             brand: "Dodge",
             model: "Attitude"
         )
