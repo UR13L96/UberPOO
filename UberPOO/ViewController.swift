@@ -32,6 +32,22 @@ class ViewController: UIViewController {
         )
         car2.passengers = 3
         car2.printData()
+        
+        let uberX = UberX(
+            license: "CVB123",
+            driver: Account(name: "Andres Herrera", document: "AND456"),
+            brand: "Chevrolet",
+            model: "Spark"
+        )
+        uberX.printData()
+        
+        let uberPool = UberPool(
+            license: "TYU567",
+            driver: Account(name: "Andrea Ferran", document: "ANDA765"),
+            brand: "Dodge",
+            model: "Attitude"
+        )
+        uberPool.printData()
     }
 
 
