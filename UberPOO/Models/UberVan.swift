@@ -17,4 +17,12 @@ class UberVan: Car {
         self.typeCarAccepted = typeCarAccepted
         self.seatsMaterial = seatsMaterial
     }
+    
+    override func setPassengers(passengers: Int) {
+        if passengers == 6 {
+            self.passengers = passengers
+        } else {
+            print("Wrong passengers number")
+        }
+    }
 }

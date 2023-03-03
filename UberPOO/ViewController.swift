@@ -20,7 +20,7 @@ class ViewController: UIViewController {
                 document: "UO123"
             )
         )
-        car.passengers = 5
+        car.setPassengers(passengers: 4)
         car.printData()
         
         let car2 = Car(
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
                 document: "NM123"
             )
         )
-        car2.passengers = 3
+        car2.setPassengers(passengers: 4)
         car2.printData()
         
         let uberX = UberX(
@@ -48,6 +48,15 @@ class ViewController: UIViewController {
             model: "Attitude"
         )
         uberPool.printData()
+        
+        let uberVan = UberVan(
+            license: "ALS631",
+            driver: Account(name: "Juanito Pérez", document: "JPA3147"),
+            typeCarAccepted: [:],
+            seatsMaterial: ["Piel"]
+        )
+        uberVan.setPassengers(passengers: 6)
+        uberVan.printData()
     }
 
 

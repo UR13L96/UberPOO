@@ -21,5 +21,14 @@ class Car {
     func printData() {
         print("License: \(license)")
         print("Driver name: \(driver.name)")
+        print("Passengers: \(passengers)")
+    }
+    
+    func setPassengers(passengers: Int) {
+        if passengers == 4 {
+            self.passengers = passengers
+        } else {
+            print("Wrong passengers number")
+        }
     }
 }

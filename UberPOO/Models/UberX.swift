@@ -17,4 +17,10 @@ class UberX: Car {
         self.brand = brand
         self.model = model
     }
+    
+    override func printData() {
+        super.printData()
+        print("Brand: \(brand)")
+        print("Model: \(model)")
+    }
 }
